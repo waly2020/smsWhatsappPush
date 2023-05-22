@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "envoie des sms en masse par whatsapp",
   "main": "main.js",
+  "engines" : {
+    "node" : "14.x"
+  },
   "scripts": {
     "start": "node ./server/main.js",
     "dev": "nodemon ./server/main.js"
